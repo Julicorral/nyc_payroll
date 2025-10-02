@@ -1,0 +1,9 @@
+{
+	"name": "nycprojectdf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "254e8eac-5ea9-44d5-bb11-c1a48e173d10",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
