@@ -155,7 +155,7 @@
 				"     ),",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true) ~> select2",
-				"select1, select2 union(byName: true)~> union1",
+				"select1, source2 union(byName: true)~> union1",
 				"filter1 derive(TotalPaid = RegularGrossPaid + TotalOTPaid+TotalOtherPay) ~> TotalPaid",
 				"TotalPaid aggregate(groupBy(AgencyName,",
 				"          FiscalYear),",
